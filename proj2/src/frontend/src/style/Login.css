@@ -1,0 +1,34 @@
+div.form-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  div.form-input form  {
+    display: flex;
+    flex-direction: column; 
+    width: 25rem;
+  }
+  
+  div.form-input form button {
+    width: 5rem;
+    align-self: flex-end;
+  }
+
+  .register {
+    cursor: pointer;
+  }
+
+  .login-btn.active {
+    background-color: #304543 !important;
+    color: white !important;
+  }
+
+  .login-btn {
+    color: #304543 !important;
+  }
+
+  .green {
+    background-color: #304543 !important;
+    border: #304543 !important;
+  }

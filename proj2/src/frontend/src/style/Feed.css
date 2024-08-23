@@ -1,0 +1,26 @@
+.post-btn {
+    background-color: blanchedalmond !important;
+    border-color: burlywood !important;
+    color: #af752c !important;
+}
+
+.post-btn:hover {
+    background-color: #e0bf8e !important;
+    border-color: burlywood !important;
+    color: #af752c !important;
+}
+
+.follow {
+    background-color: #304543 !important;
+    border: #304543 !important;
+}
+
+.unfollow {
+    background-color: #dbdbc5 !important;
+    border: #f5f5ef !important;
+    color: black !important;
+}
+
+.post-input {
+    width: 60%;
+}

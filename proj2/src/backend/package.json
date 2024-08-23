@@ -1,0 +1,49 @@
+{
+  "name": "backendjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^5.3.0",
+    "@chainsafe/libp2p-noise": "^10.2.0",
+    "@libp2p/bootstrap": "^5.0.1",
+    "@libp2p/kad-dht": "^6.1.0",
+    "@libp2p/mdns": "^5.1.0",
+    "@libp2p/mplex": "^7.1.0",
+    "@libp2p/pubsub-peer-discovery": "^7.0.0",
+    "@libp2p/tcp": "^6.0.5",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "it-pipe": "^2.0.5",
+    "joi": "^17.7.0",
+    "libp2p": "^0.41.0",
+    "libp2p-bootstrap": "^0.14.0",
+    "libp2p-delegated-content-routing": "^0.11.2",
+    "libp2p-delegated-peer-routing": "^0.11.1",
+    "libp2p-mdns": "^0.18.0",
+    "libp2p-websockets": "^0.16.2",
+    "multiformats": "^10.0.2",
+    "node-rsa": "^1.1.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.8.0"
+  }
+}
